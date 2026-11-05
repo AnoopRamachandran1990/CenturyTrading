@@ -7,6 +7,6 @@ import react from '@vitejs/plugin-react'
 // so assets must be requested from /CenturyTrading/... not the domain root.
 // Leading AND trailing slash are required.
 export default defineConfig({
-  base: '/CenturyTrading/',
+  base: '/',
   plugins: [react()],
 })
